@@ -6,23 +6,13 @@ Production URL: [http://stockoption.ymlai87416.com/](http://stockoption.ymlai874
 
 ## Project structure
 
-### Server 
+### Server
 
-Written in spring-boot and current deploy in AWS as a standalone JAR with embedded Tomcat. 
-
-#### Run
-
-    gradle bootRun
-
-#### Build
-
-    gradle build
-
-#### Deploy
-
-    java -jar server-0.0.1-SNAPSHOT.jar
+Please refer to https://github.com/ymlai87416/stockoption-api for details
 
 ### Client
+
+[![Build Status](https://travis-ci.org/ymlai87416/stockoption-spa.svg?branch=master)](https://travis-ci.org/ymlai87416/stockoption-spa)
 
 Written in angular 5 and semantic UI to provide a decent front-end to users.
 
